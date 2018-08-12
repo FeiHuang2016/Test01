@@ -1,74 +1,0 @@
-Dependencies for Project 'STM32F429IGTdemo', Target 'Target 1': (DO NOT MODIFY !)
-F (..\SYSTEM\header\startup_stm32f429xx.s)(0x5B439334)(--cpu Cortex-M4.fp -g --apcs=interwork -I"D:\单片机学习\STM32\TEMPLATE hal库模板\USER\RTE"-ID:\keil5.21\ARM\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil5.21\ARM\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F429xx SETA 1"--list .\listings\startup_stm32f429xx.lst --xref -o .\objects\startup_stm32f429xx.o --depend .\objects\startup_stm32f429xx.d)
-F (..\SYSTEM\Src\system_stm32f4xx.c)(0x56B06B23)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\header -I ..\SYSTEM\Inc -I ..\SYSTEM\Hallib\Inc-I"D:\单片机学习\STM32\TEMPLATE hal库模板\USER\RTE"-ID:\keil5.21\ARM\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil5.21\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
-I (..\SYSTEM\Inc\stm32f4xx.h)(0x5B61CC62)
-I (..\SYSTEM\Inc\stm32f429xx.h)(0x56AB99BD)
-I (..\SYSTEM\header\core_cm4.h)(0x577640E0)
-I (D:\keil5.21\ARM\ARM\ARMCC\include\stdint.h)(0x574E3E26)
-I (..\SYSTEM\header\core_cmInstr.h)(0x577640E0)
-I (..\SYSTEM\header\cmsis_armcc.h)(0x577640E0)
-I (..\SYSTEM\header\core_cmFunc.h)(0x577640E0)
-I (..\SYSTEM\header\core_cmSimd.h)(0x563336C6)
-I (..\SYSTEM\Inc\system_stm32f4xx.h)(0x56AB99BD)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal.h)(0x56AB99D5)
-I (..\SYSTEM\Inc\stm32f4xx_hal_conf.h)(0x5B438E53)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_rcc.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_def.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\Legacy/stm32_hal_legacy.h)(0x56B09D15)
-I (D:\keil5.21\ARM\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_rcc_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_gpio.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_gpio_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dma.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dma_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_cortex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_adc.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_adc_ex.h)(0x56AB99D1)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_can.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_crc.h)(0x56AB99D0)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_cryp.h)(0x56AB99D1)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dma2d.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dac.h)(0x56AB99D1)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dac_ex.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dcmi.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_dcmi_ex.h)(0x56AB99D0)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_eth.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_flash.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_flash_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_sram.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_ll_fmc.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_nor.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_nand.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_pccard.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_sdram.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_hash.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_i2c.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_i2c_ex.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_i2s.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_i2s_ex.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_iwdg.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_ltdc.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_ltdc_ex.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_pwr.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_pwr_ex.h)(0x56AB99D0)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_rng.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_rtc.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_rtc_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_sai.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_sai_ex.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_sd.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_ll_sdmmc.h)(0x56AB99D1)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_spi.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_tim.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_tim_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_uart.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_usart.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_irda.h)(0x56AB99D1)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_smartcard.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_wwdg.h)(0x56AB99D6)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_pcd.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_ll_usb.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_pcd_ex.h)(0x56AB99D5)
-I (..\SYSTEM\Hallib\Inc\stm32f4xx_hal_hcd.h)(0x56AB99D5)
-F (..\PRO_C\main.c)(0x5B61C804)(--c99 -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\header -I ..\SYSTEM\Inc -I ..\SYSTEM\Hallib\Inc-I"D:\单片机学习\STM32\TEMPLATE hal库模板\USER\RTE"-ID:\keil5.21\ARM\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\keil5.21\ARM\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F429xx -DUSE_HAL_DRIVER -DSTM32F429xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
