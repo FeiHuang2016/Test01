@@ -1,1 +1,0 @@
-test smartgit software add a readme file.
