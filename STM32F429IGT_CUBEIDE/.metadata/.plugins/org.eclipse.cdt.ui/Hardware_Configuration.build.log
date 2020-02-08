@@ -1,0 +1,7 @@
+14:33:55 **** Clean-only build of configuration Debug for project Hardware_Configuration ****
+make -j12 clean 
+rm -rf *
+ 
+
+14:33:56 Build Finished. 0 errors, 0 warnings. (took 470ms)
+
